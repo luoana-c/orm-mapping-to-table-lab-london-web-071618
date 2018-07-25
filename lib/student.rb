@@ -25,3 +25,4 @@ class Student
       DROP TALBE students 
       SQL 
     DB[:conn].execute(sql)
+  end
