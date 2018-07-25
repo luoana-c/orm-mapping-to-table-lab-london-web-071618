@@ -24,4 +24,4 @@ class Student
     sql = <<-SQL 
       DROP TALBE students 
       SQL 
-  
+    DB[:conn].execute(sql)
